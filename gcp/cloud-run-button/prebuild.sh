@@ -28,7 +28,7 @@ done
 
 gcloud config set project $GOOGLE_CLOUD_PROJECT
 
-./gcp/install.sh
+npm init gaarf-wf@latest -- --answers=answers.json
 
 echo -e "${CYAN}!!!!! Please ignore all output below !!!!!${WHITE}"
 echo
